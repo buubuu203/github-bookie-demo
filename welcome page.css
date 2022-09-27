@@ -1,0 +1,77 @@
+body
+{
+    background-color: rgb(242, 232, 223);
+}
+
+.choices ul 
+{
+    margin: 20px auto ;
+    padding: 0 auto;
+    text-align: center;
+  
+}
+
+.choices li
+{
+    color: rgba(139, 75, 47, 0.652);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    word-spacing: 2px;
+    background-color: antiquewhite;
+    text-align: center;
+    border: solid 1px ;
+    width: 90px;
+}
+
+.choices li:hover
+{
+    color: rgba(233, 161, 113, 0.482);
+    background-color: antiquewhite;
+}
+
+
+h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    font-size: px;
+    text-align: 25px center;
+    background-color: #efd5c3;
+    padding: 10px;
+}
+
+.book_title 
+{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    color: peru;
+}
+
+.author
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin:0;
+    color:rgba(96, 61, 38, 0.482);
+}
+
+.recommend_book li
+{
+    display: inline-block;
+    background-color: #fffbf9cd;
+    text-align: center;
+    border: solid 1px #AD8B73;
+    padding-top: 15px;
+    margin-top: 10px;
+    width: 250px;
+    height: 380px;
+}
+
+.recommend_book li:hover
+{
+    background-color:#E3CAA5 ;
+}
+

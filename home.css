@@ -1,0 +1,21 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+h3
+{
+    font-family: 'Varela Round', sans-seri;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    text-shadow: 1px;
+    color: rgba(203, 87, 25, 0.6);
+    
+}
+
+.gif
+{
+    padding: 60px;
+    margin-left: 40px;
+}
