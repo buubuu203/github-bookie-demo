@@ -3,7 +3,7 @@ body
     background-color: rgb(242, 232, 223);
 }
 
-.choices ul 
+ .choices ul 
 {
     margin: 20px auto ;
     padding: 0 auto;
@@ -15,22 +15,22 @@ body
 {
     color: rgba(139, 75, 47, 0.652);
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     display: inline-block;
-    word-spacing: 2px;
-    background-color: antiquewhite;
+    word-spacing: 3px;
+    background-color: rgb(212, 190, 161);
     text-align: center;
-    border: solid 1px ;
-    width: 90px;
+    border: solid 2px ;
+    height: 40px;
+    width: 200px;
 }
 
 .choices li:hover
 {
     color: rgba(233, 161, 113, 0.482);
     background-color: antiquewhite;
-}
-
+} 
 
 h3
 {
@@ -40,6 +40,17 @@ h3
     text-align: 25px center;
     background-color: #efd5c3;
     padding: 10px;
+}
+
+.choices a
+{
+    color:rgba(73, 46, 28, 0.482);
+    text-decoration: none;
+}
+
+.choices a:hover
+{
+    color: rgba(193, 110, 114, 0.701);
 }
 
 .book_title 
@@ -73,5 +84,22 @@ h3
 .recommend_book li:hover
 {
     background-color:#E3CAA5 ;
+}
+
+.comic li
+{
+    display: inline-block;
+    background-color: #fffbf9cd;
+    text-align: center;
+    border: solid 1px #AD8B73;
+    padding-top: 15px;
+    margin-top: 10px;
+    width: 250px;
+    height: 380px;
+}
+
+.comic li:hover 
+{
+    background-color: #E3CAA5;
 }
 
